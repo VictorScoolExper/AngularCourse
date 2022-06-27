@@ -1,0 +1,30 @@
+Types of DataBinding
+
+String Interpolation: 
+    example 
+        1 - {{ variableName || 'String' }}
+        2 - {{ 'String' }}
+        3 - {{ functionThatReturnsString }}
+
+
+Property DataBinding is the binding of function with attributes
+you must wrap in '[]' for valid property binding.
+    Example:
+        1) - in html: <p [innerText] = "allowNewServer"
+           - in .ts: setTimeout(()=>{
+                        this.allowNewServer = true;
+                    },2000);
+                    
+Event Binding is binding funciton similiar to a button triggerring a button
+    Example:
+        1) in html: add to button => (click)="onCreateServer()"
+        2) in .ts: onCreateServer(){
+                        this.serverCreationStatus = 'server was created';
+                    }
+
+Two way binding the combination of property and event binding
+    Example:
+        1) to declare in html use the following sintax: 
+            [(ngModel)] = "variableName"
+
+

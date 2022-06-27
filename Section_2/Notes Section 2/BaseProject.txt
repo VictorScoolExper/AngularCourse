@@ -1,0 +1,4 @@
+To create project we enter the second cmd:
+- ng new my-first-app-sec2 --no-strict
+We proceed to add BootStrap
+- npm install --save bootstrap

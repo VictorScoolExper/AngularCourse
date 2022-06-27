@@ -1,0 +1,5 @@
+How to generate elements
+
+Generate a component: ng generate component nameComponent or ng g c nameComponent
+Note: the cmd before will generate a new folder with the components
+

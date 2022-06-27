@@ -1,0 +1,33 @@
+To bind to a custom property to the selector
+- We first must declare our variable as: @Input();
+- Then call that variable where we would like to view it
+
+To change the name of the custom property so we can access with a different
+name we must add to @Input()
+- to do this we just add this to our @Input: 
+    example: @Input('nameVar');
+- With this we can access that variable via the nameVar.
+
+To emit out we must create an EventEmitter and add Output to the 
+begining of the variable
+- example
+    @Output() serverCreated = new EventEmitter<{serverName: string, serverContent: string}>();
+
+Style binding must be done in css.
+in our @Component, we can add, to eliminate encapsulation
+encapsulation: ViewEncapsulation.None
+
+References using local
+to the tag add #nameOfVariables, example
+<input #serverNameInput>, then u can use it inside the form
+
+to bind HTML to .ts we can use the following:
+@ViewChild(nameOfLocalReference, {static: true}) nameVar;
+
+Good practice when interacting with the dom, never manipulate the
+html through @ViewChild and use string interpolation or property 
+binding.
+
+<!-- This botton tage will bind our content automatically -->
+        <ng-content></ng-content>
+ng-content is great for navigation bar, so you dont have to pass data

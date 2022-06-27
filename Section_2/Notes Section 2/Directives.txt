@@ -1,0 +1,34 @@
+Directives
+
+directives are instructions in the DOM
+
+ngIf: is a condicional if statement
+    Example: *ngIf="variableNameOfBoolean || functionThatReturnsBoolean"
+
+
+If & Else: is a condicional statement
+    Example:
+        <p *ngIf="serverCreated; else noServer">Server was created, server name is {{ serverName }}</p>
+        <ng-template #noServer>
+            <p>No server has been created</p>
+        </ng-template>
+
+To override class use ngClass only works if the condition is true 
+otherwise it will not works
+    Example:
+        1) in html, in a tag(div,p), the following code: 
+            [ngClass]="{online: serverStatus === 'online'}"
+           in the .ts, we add the style in the component area:
+            styles: [`
+                .online{
+                    color: white;
+                }
+            `]
+
+ngFor directive, is the for statement.
+for the statement to work we declare our ngFor in our tag and 
+we declare write let, declare a variable by us and call our variable list.
+    Example:
+        1) *ngFor="let varNameGivenByYou of varNameInTS"
+
+

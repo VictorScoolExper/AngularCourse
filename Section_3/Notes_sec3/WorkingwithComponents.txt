@@ -1,0 +1,3 @@
+To generate component: ng generate component nameComponent
+To embild component in another component: 
+    - ng g c anotherComponent/componentName 
