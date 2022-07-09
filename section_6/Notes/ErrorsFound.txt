@@ -1,0 +1,7 @@
+when adding an ingredient to list the page quickly refreshes and erases
+everything
+to fix this we just add Forms to AppModule.
+import { FormsModule } from '@angular/forms';
+ imports: [
+    FormsModule
+]

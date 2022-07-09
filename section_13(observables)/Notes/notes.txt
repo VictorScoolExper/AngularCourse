@@ -1,0 +1,4 @@
+Understanding obsrevables:
+    - Operators (feature of rxjs): observable gets data from subscription, we can 
+    built in operators in between data and our subscription.
+    

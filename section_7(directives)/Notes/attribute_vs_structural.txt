@@ -1,0 +1,9 @@
+Attribute Directives
+- You never destroy element from dom, only can do things like change color.
+- Look like normal HTML Attribute(possibly with databinding or event binding)
+- Only affect/change the element they are added to.
+Structural Directives
+- Change structure of the dom arround it.
+- Look like a normal HTML Attribute but have a leading *(for desugaring)
+- Affect a whole area in the DOM (elements get added/remove)
+- the * indicates that it is Structural

@@ -1,0 +1,15 @@
+Forms
+use forms for:
+    - check for valid informacion.
+    - 
+
+Two aproaches:
+    - Template-Driven: Angular infers the Form Object from the DOM.
+        - literally a Template
+        
+    - Reactive: Form is created programatically and synchornized with the DOM.
+        - you can personalize
+
+
+Check Form to se value of Objects.
+

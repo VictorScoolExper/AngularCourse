@@ -1,0 +1,2 @@
+install core feature of NgRX:
+- npm install --save @ngrx/store

@@ -1,0 +1,11 @@
+types of routes:
+
+appended to route
+- routerLink = "/route"
+
+relative, added to the current path.
+- routerLink = "namePath"
+
+go back to path
+- routerLink = "../../namePath"
+

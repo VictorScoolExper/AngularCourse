@@ -1,0 +1,12 @@
+What are services: Is another class that acts as a central repository.
+Example of services:
+    - Duplication of code
+    - Data storage
+
+Angular Dependency Injector:  This injects an instance of the class automatically
+all we must is inform angular we require that instance.
+    - This is a Hierarchical Injector
+        - If we provide it in the AppModule, we can access from our whole app.
+        - The app components all instances are avaible for all components
+        - These always propagate down
+        - Can be avaible for only one component.
