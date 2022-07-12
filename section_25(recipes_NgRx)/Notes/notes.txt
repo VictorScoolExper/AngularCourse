@@ -1,2 +1,11 @@
 install core feature of NgRX:
 - npm install --save @ngrx/store
+- npm install --save-dev @ngrx/store-devtools
+ example in app.module
+        StoreDevtoolsModule.instrument({logOnly: environment.production}),
+- npm install --save @ngrx/router-store
+ example in app.module 
+        StoreRouterConnectingModule.forRoot(),
+
+
+had error with resolver. be careful
