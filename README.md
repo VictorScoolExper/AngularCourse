@@ -1,4 +1,4 @@
-# AngularCourse
+# AngularCourse and Projects
  my mini angular projects
-# all course projects are found in the master branch
-# this also includes angular course projects for arcadeMind
+all course projects are found in the master branch
+this also includes angular course projects for arcadeMind
