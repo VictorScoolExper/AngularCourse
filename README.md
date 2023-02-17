@@ -8,5 +8,5 @@ The course helped me take my angular abilities to the next level and have a bett
 
 ## Notes
 Find All the course projects in the master branch,
-All the repos that contain the section in the name are from the Udemy course
+All the repos that contain the section in the name are from the Udemy course.
 
